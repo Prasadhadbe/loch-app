@@ -64,18 +64,7 @@ const Testimonials = () => {
               />
             </svg>
           </div>
-          <div
-            className="widget-data"
-            ref={cardContainerRef}
-            style={{
-              display: "flex",
-              overflowX: "hidden",
-              overflowY: "hidden",
-              whiteSpace: "nowrap",
-              width: "1200px",
-              paddingRight: "10px",
-            }}
-          >
+          <div className="widget-data" ref={cardContainerRef}>
             {tCardsArray.map((card, index) => (
               <>{card()}</>
             ))}

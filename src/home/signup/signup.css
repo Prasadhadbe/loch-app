@@ -106,3 +106,37 @@
   margin: 0;
   color: red;
 }
+@media screen and (max-width: 952px) {
+  .signup-title {
+    font-size: 20px;
+  }
+  .signup-email-tf {
+    width: 180px;
+  }
+  .signup-button {
+    width: 180px;
+  }
+  .signup-message {
+    font-size: 10px;
+  }
+  .signup-error {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .signup-title {
+    font-size: 40px;
+  }
+  .signup-email-tf {
+    width: 220px;
+  }
+  .signup-button {
+    width: 220px;
+  }
+  .signup-message {
+    font-size: 10px;
+  }
+  .signup-error {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,32 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+/* body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: radial-gradient(
+    79.84% 79.84% at 32.27% 91.27%,
+    rgba(31, 169, 17, 0.810119) 17.21%,
+    #2f15d0 64.58%,
+    #000000
+  );
+  overflow: hidden;
+} */
+
+.home-sections {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.info-section {
+  flex: 0 0 70%;
+}
+
+.signup-section {
+  flex: 1;
+}

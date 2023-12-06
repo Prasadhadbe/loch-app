@@ -1,0 +1,108 @@
+/* info.css */
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+
+  height: 100%;
+  background: #fff;
+
+  box-shadow: 0px 14px 64px -4px rgba(24, 39, 75, 0.12),
+    0px 8px 22px -6px rgba(24, 39, 75, 0.12);
+}
+
+.signup-title {
+  color: var(--grey-300, #b0b1b3);
+  text-align: left;
+  /* Heading 3 */
+  font-family: Inter;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 46.8px */
+}
+
+.signup-form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.signup-email-tf {
+  width: 370px;
+  margin-bottom: 16px;
+  /* width: 340px; */
+  padding: 20px 10px 20px 20px;
+  margin-top: 32px;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid var(--grey-100, #e5e5e6);
+  background: #fff;
+
+  /* ShadowDropdown */
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.04),
+    0px 4px 10px 0px rgba(0, 0, 0, 0.04);
+  color: var(--grey-200, #cacbcc);
+
+  /* Body */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%; /* 19.2px */
+
+  &:hover {
+    border-color: cornflowerblue;
+  }
+
+  &:active {
+    border-color: cornflowerblue;
+  }
+}
+.signup-button {
+  width: 400px;
+  /* width: 340px; */
+  /* height: 19px; */
+  padding: 20px;
+
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  /* flex-shrink: 0; */
+  border-radius: 8px;
+  border: 1px solid var(--grey-900, #19191a);
+  background: var(--grey-900, #19191a);
+  color: var(--White, #fff);
+  text-align: center;
+
+  /* Button Label */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 19.2px */
+  cursor: pointer;
+}
+
+.signup-message {
+  /* margin-top: 24px; */
+  color: var(--grey-900, #19191a);
+  text-align: center;
+
+  /* Button Label */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 19.2px */
+}
+
+.signup-error {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  color: red;
+}

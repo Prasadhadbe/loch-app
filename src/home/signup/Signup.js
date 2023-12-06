@@ -20,7 +20,7 @@ function Signup() {
     event.preventDefault();
 
     if (!validateEmail(email)) {
-      setErrorMessage("Invalid email address");
+      setErrorMessage("Please enter a valid email");
       return;
     }
     console.log("Email:", email);

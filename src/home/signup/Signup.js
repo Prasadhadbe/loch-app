@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./signup.css";
 
 function Signup() {
@@ -48,6 +49,9 @@ function Signup() {
       <h4 className="signup-message">
         You'll receive an email with an invite link to join.
       </h4>
+      <Link to="/" className="back-button mobile-only">
+        Go back
+      </Link>
     </div>
   );
 }

@@ -399,6 +399,11 @@
 .footer-widgets:active {
   cursor: grabbing;
 }
+
+.top-button {
+  display: none;
+}
+
 @media screen and (max-width: 952px) {
   .info-grid {
     padding: 20px;
@@ -444,12 +449,14 @@
     margin-right: 20px;
   }
 } */
+
 @media screen and (max-width: 350px) {
   .info-container {
     overflow: scroll;
   }
   .info-grid {
     grid-template-columns: 1fr;
+    padding: 0px;
   }
   .data-title {
     font-size: 20px;
@@ -488,5 +495,24 @@
     white-space: nowrap;
     width: 220px;
     padding-right: 10px;
+  }
+
+  .signin-button-row {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile-only {
+    display: inline-block;
+    color: white;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+    cursor: pointer;
+    padding-right: 10px;
+    /* padding-top: 16px; */
+    /* padding-bottom: 16px; */
   }
 }
